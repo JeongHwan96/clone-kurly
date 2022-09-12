@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+html, body {width:100%;height:100%;}
+body {font: normal 14px/1 'Nanum Gothic', 'Roboto';background:rgba(255,255,255, 1);color:rgba(0,0,0,.85); }
+ul,li {list-style: none;}
+a {color: rgba(0,0,0, .85);text-decoration: none;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 14px;}
+em,i,address {font-style: normal;}
+strong, b {font-weight: normal;}
+/* 투명버튼 접근성 고려한 클래스이름 블라인드 */
+.blind {display:block;text-indent:-2000px;overflow:hidden;}
+

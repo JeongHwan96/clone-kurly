@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('./fonts.css');
+@import url('./reset.css');
+
+#wrap {
+    width: 100%;
+}
+
+/* 팝업창(모달창) */
+/* z-index 는 포지션 속성을 사용해야만 지정가능하다 */
+
+#popup {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 42px;
+    background: #5f0080;
+}
+
+#popup a {
+    display: block;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+#popup a .container {
+    width: 100%;
+    display: flex;
+}
+
+#popup a .container h1 {
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 0 42px;
+    font-family: 'Noto Sans KR';
+}
+
+#popup a .container h1 strong {
+    font-weight: 700;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#popup a .container span {
+    margin: auto 0 auto auto;
+    width: 42px;
+    height: 42px;
+    background: url(../img/ico_close_fff_84x84.webp) no-repeat 50% 50%;
+    background-size: 42px 42px;
+}
+
+
+
+
